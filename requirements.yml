@@ -1,0 +1,6 @@
+---
+roles:
+  - name: init_system
+    src: ssh://git@github.com/norayr-im/ansible-role.git
+    version: main
+    scm: git
