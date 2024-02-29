@@ -4,3 +4,8 @@ roles:
     src: ssh://git@github.com/norayr-im/ansible-role.git
     version: main
     scm: git
+
+collections:
+  - name: git@github.com:norayr-im/local.color.git
+    type: git
+    version: main
