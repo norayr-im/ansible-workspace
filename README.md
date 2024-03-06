@@ -1,6 +1,13 @@
 # ansible-workspace
 
-## Run
+## Run Role
+
 ```bash
-$ ./run_ansible.sh
+$ ./run_role.sh
+```
+
+## Run Collection
+
+```bash
+$ ./run_collection.sh
 ```
