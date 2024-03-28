@@ -2,4 +2,4 @@
 ansible-galaxy role install -r requirements.yml -p ./roles
 
 # Run
-ansible-playbook --ask-become-pass --tags "test_role" main.yml
+ansible-playbook --ask-become-pass --tags "role-test" main.yml
