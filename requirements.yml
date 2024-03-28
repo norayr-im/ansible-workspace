@@ -6,6 +6,6 @@ roles:
     scm: git
 
 collections:
-  - name: git@github.com:norayr-im/local.color.git
+  - name: git@github.com:norayr-im/ansible-collections.git
     type: git
     version: main

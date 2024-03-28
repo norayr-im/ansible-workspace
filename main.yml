@@ -1,12 +1,12 @@
 ---
 - hosts: all
   become: true
-  tags: test_role
+  tags: role-test
   roles:
     - init_system
 
 - hosts: all
-  tags: test_collection
+  tags: collection-test
   vars:
     my_color_choice: 'blue'
 
